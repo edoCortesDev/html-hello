@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    height: 60px;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkgray;
+}
+
+.post {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.post-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.text-title{
+    font-weight: bold;
+}
+
+.number-title{
+    color: darkgray;
+}
+
+.post img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+
+.post-description{
+    padding: 10px;
+}
